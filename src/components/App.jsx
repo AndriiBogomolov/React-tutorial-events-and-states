@@ -1,17 +1,25 @@
 import React from 'react';
-import Counter from './Counter/Counter.jsx';
+import Counter from './Counter/Counter';
+import Dropdown from './Dropdown/Dropdown';
+// import ColorPicker from './ColorPicker/ColorPicker';
 
 // const colorPickerOptions = [
 //   { label: 'red', color: '#f44336' },
 //   { label: 'green', color: '#4caf50' },
 //   { label: 'blue', color: '#2196f3' },
+//   { label: 'grey', color: '#607D8B' },
+//   { label: 'pink', color: '#E91E63' },
+//   { label: 'indigo', color: '#3F51B5' },
+
 // ];
 
 export const App = () => (
   <>
   <h1>Состояние компонента</h1>
   
-  <Counter/>
+    <Dropdown />
+
+  {/* <Counter/> */}
 
   </>
   // return (
